@@ -1,0 +1,17 @@
+{
+  "name": "njukebox",
+  "version": "0.0.1",
+  "description": "An extensible music player that uses Music Player Daemoan and node.js",
+  "keywords": [],
+  "author": "Andrej Palicka <palicka@netlife.sk>",
+  "repository": { "type": "git", "url": "git://github.com/palicand/njukebox.git" },
+  "dependencies": {
+    "express": "3.0.0",
+    "socket.io": "*"
+    },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index"
+}
