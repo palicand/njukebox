@@ -1,2 +1,3 @@
+var jukebox = require('./lib/njukebox');
 
-module.exports = require('./lib/njukebox');
+jukebox.start();
