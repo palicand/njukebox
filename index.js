@@ -1,3 +1,3 @@
 var jukebox = require('./lib/njukebox');
 
-jukebox.start();
+jukebox.start(8080);

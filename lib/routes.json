@@ -1,0 +1,16 @@
+
+{
+	"get" : [
+		{
+			"path":"/:page",
+			"handlers":
+				["handleStatic"]
+		},
+		{
+
+			"path":"/api/:command",
+			"handlers":
+				["handleMPD"]
+		}
+	]
+}
