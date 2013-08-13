@@ -2,15 +2,18 @@
 {
 	"get" : [
 		{
-			"path":"/:page",
-			"handlers":
-				["handleStatic"]
-		},
-		{
 
 			"path":"/api/:command",
+			"regexp":false,
 			"handlers":
 				["handleMPD"]
+		},
+		{
+			"path":"^(/[-a-zA-Z1-9_.]+)*",
+			"regexp":true,
+
+			"handlers":
+				["handleStatic"]
 		}
 	]
 }

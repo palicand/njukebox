@@ -1,3 +1,4 @@
 *.log
-*.sublime-*	
+*.sublime-*
 node_modules/
+njukebox.sublime-workspace
