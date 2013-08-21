@@ -1,3 +1,11 @@
 #library {
 	float: left;
 }
+
+#playlist {
+	float: right;
+}
+
+.selected {
+	background-color: yellow;
+}
