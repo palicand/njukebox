@@ -100,4 +100,10 @@ $(document).ready(function() {
 			emitCommand("status");		
 		}
 	});
+
+	$("#remove").click(function() {
+		emitCommand("deleteid", {"song":selectedSong}, function() {
+			emitCommand("playlistinfo");
+		});
+	});
 });
